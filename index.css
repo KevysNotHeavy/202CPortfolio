@@ -86,6 +86,12 @@ p {
   .Image_List,
   .Grouped_List {
     flex: 1 1 100%;
+    position: relative;
+    left: 2em;
+  }
+  
+  .Grouped_List {
+    left: -1.5em;
   }
   
   p {
