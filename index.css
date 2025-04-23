@@ -86,4 +86,8 @@ p {
   .Grouped_List {
     flex: 1 1 100%;
   }
+  
+  p {
+  margin: 1em
+  }
 }
