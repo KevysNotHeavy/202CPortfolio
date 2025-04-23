@@ -58,6 +58,7 @@ p {
   
   align-items: center;
   flex-wrap: wrap;
+  gap: 1em; /* silly IDE :'3 */
 }
 
 /* Group Lists and Define Their Flex Values */
