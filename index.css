@@ -1,12 +1,52 @@
 body {
+
   background: #181A72;
-  margin: 5px;
-  padding: 5px;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(0deg, #181A72, #070722);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(90deg, #181A72, #070722);
+  
+  margin: 0px;
+  padding: 3em;
   
 }
 
-h1 {
+h1,h2 {
   text-align: center;
   font-family: Impact;
-  font-size: 2em
+  color: #A8A8A8;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+p {
+  text-indent: 1.5em;
+  color: #A8A8A8;
+  text-align: left;
+  font-size: 1.5em;
+  
+  margin: 5em
+}
+
+.Title {
+  color: #A8A8A8;
+  font-size: 2em;
+  position: relative;
+  margin: 3.5em;
+}
+
+.List {
+  list-style-image: './dot.png';
+  list-style-position: inside;
+  color: #A8A8A8;
+  position: relative;
+  margin: 2em;
+  text-indent: 5em;
+  font-size: 1.2em;
 }
