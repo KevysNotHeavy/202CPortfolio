@@ -2,9 +2,12 @@ body {
 
   background: #181A72;
   /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(0deg, #181A72, #070722);
+  background: -webkit-linear-gradient(45deg, #181A72, #070722);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(90deg, #181A72, #070722);
+  background: linear-gradient(45deg, #181A72, #070722);
+  
+  background-repeat: no-repeat;
+  background-size: auto;
   
   margin: 0px;
   padding: 3em;
@@ -101,6 +104,8 @@ p {
 
 .Button {
   text-decoration: none;
-  padding: 14px 10px;
-  background-color: Red;
+  color: white;
+  padding: 14px 20px;
+  background-color: #3C2B64;
+  border-radius: 2em;
 }
