@@ -51,11 +51,39 @@ p {
   font-size: 1.2em;
 }
 
+/* Group Images and Define Their Flex Values */
+.Image_List {
+  display: flex;
+  flex: 1 1 60%;
+  
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Group Lists and Define Their Flex Values */
+.Grouped_List {
+  flex: 1 1 40%;
+}
+
+/* Set How To Order Them */
+.Left_Right {
+  display: flex;
+  justify-content: center;
+}
+
 .Image {
   width: 30em;
-  position: relative;
-  right: 20em;
-  top: 4em;
-  margin: 1em;
-  float: right;
+  border-radius: 1em;
+}
+
+@media (max-width: 768px) {
+  .Left_Right {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Image_List,
+  .Grouped_List {
+    flex: 1 1 100%;
+  }
 }
