@@ -98,3 +98,9 @@ p {
   margin: 1em
   }
 }
+
+.Button {
+  text-decoration: none;
+  padding: 14px 10px;
+  background-color: Red;
+}
