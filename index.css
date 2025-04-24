@@ -7,12 +7,13 @@ body {
   background: linear-gradient(45deg, #181A72, #070722);
   
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   
   margin: 0px;
   padding: 3em;
   
 }
+
 
 h1,h2 {
   text-align: center;
@@ -30,11 +31,12 @@ h2 {
 
 p {
   text-indent: 1.5em;
+  font-family: 'Georgia';
   color: #A8A8A8;
   text-align: left;
   font-size: 1.5em;
   
-  margin: 5em
+  margin: 3em
 }
 
 .Title {
@@ -57,7 +59,7 @@ p {
 /* Group Images and Define Their Flex Values */
 .Image_List {
   display: flex;
-  flex: 1 1 60%;
+  flex: 1 1 70%;
   
   align-items: center;
   flex-wrap: wrap;
@@ -66,13 +68,14 @@ p {
 
 /* Group Lists and Define Their Flex Values */
 .Grouped_List {
-  flex: 1 1 40%;
+  flex: 1 1 30%;
 }
 
 /* Set How To Order Them */
 .Left_Right {
   display: flex;
   justify-content: center;
+
 }
 
 .Image {
@@ -104,8 +107,44 @@ p {
 
 .Button {
   text-decoration: none;
-  color: white;
+  color: #D9D9D9;
   padding: 14px 20px;
   background-color: #3C2B64;
   border-radius: 2em;
+  margin: 0.25em;
+  position: relative;
+  text-align: center;
+  top: 1em;
+  text-wrap: nowrap;
+}
+
+.Button_Box {
+  float: bottom;
+  position: absolute;
+  text-align: center;
+  left: 32.5%;
+  bottom: 10%;
+}
+
+.Cap_Image {
+  text-align: center;
+  color: #A8A8A8;
+}
+
+left {
+  text-align: left;
+  color: white;
+  position: absolute;
+  left: 2%;
+  bottom: 2%;
+  float: bottom;
+}
+
+right {
+  text-align: right;
+  color: white;
+  position: absolute;
+  right: 2%;
+  bottom: 2%;
+  float: bottom;
 }
