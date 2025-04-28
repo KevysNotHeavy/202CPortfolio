@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "tomorrow";
+    src: url("./fonts/tomorrow.ttf");
+}
+
+@font-face {
+    font-family: "tomorrow-bold";
+    src: url("./fonts/tomorrow-bold.ttf");
+}
+
 html {
     margin: 0;
     min-height: 100%;

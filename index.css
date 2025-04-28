@@ -4,28 +4,35 @@ h1, h2 {
   position: relative;
 
   text-align: center;
-  font-family: Impact;
+  font-family: tomorrow-bold;
   color: #A8A8A8;
 }
 
 h1 {
   font-size: 3.5rem;
-  margin-top: 6rem;
+  margin-top: 8rem;
   margin-bottom: 0rem;
 }
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 
 body p {
-  text-indent: 4rem;
   position: relative;
+  left: 3%;
   
   font-size: 2rem;
+  text-align: left;
+  text-wrap: balance;
+  font-family: tomorrow;
   color: #A8A8A8;
 
-  margin-left: 3rem;
-  margin-right: 3rem;
+  margin-left: 12rem;
+  margin-right: 12rem;
+}
+
+.Indent {
+  text-indent: 6rem;
 }
