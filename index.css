@@ -1,142 +1,31 @@
-body {
+@import "./menu.css";
 
-  background: #181A72;
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: -webkit-linear-gradient(45deg, #181A72, #070722);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(45deg, #181A72, #070722);
-  
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-  margin: 0px;
-  padding: 0em;
-  
-  min-height: 100vh;
-}
+h1, h2 {
+  position: relative;
 
-
-h1,h2 {
   text-align: center;
   font-family: Impact;
   color: #A8A8A8;
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3.5rem;
+  margin-top: 6rem;
+  margin-bottom: 0rem;
 }
 
 h2 {
-  font-size: 2.5em;
+  font-size: 2rem;
+  margin-bottom: 10rem;
 }
 
-p {
-  text-indent: 1.5em;
-  font-family: 'Georgia';
-  color: #A8A8A8;
-  text-align: left;
-  font-size: 1.5em;
-  
-  margin: 3em
-}
-
-.Title {
-  color: #A8A8A8;
-  font-size: 2em;
+body p {
+  text-indent: 4rem;
   position: relative;
-  margin: 3.5em;
-}
-
-.List {
-  list-style-image: "./dot.png";
-  list-style-position: inside;
+  
+  font-size: 2rem;
   color: #A8A8A8;
-  position: relative;
-  margin: 2em;
-  text-indent: 4em;
-  font-size: 1.2em;
-}
 
-/* Group Images and Define Their Flex Values */
-.Image_List {
-  display: flex;
-  flex: 1 1 70%;
-  
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 1em; /* silly IDE :'3 */
-}
-
-/* Group Lists and Define Their Flex Values */
-.Grouped_List {
-  flex: 1 1 30%;
-}
-
-/* Set How To Order Them */
-.Left_Right {
-  display: flex;
-  justify-content: center;
-
-}
-
-.Image {
-  width: 30em;
-  border-radius: 1em;
-}
-
-@media (max-width: 768px) {
-  .Left_Right {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .Image_List,
-  .Grouped_List {
-    flex: 1 1 100%;
-    position: relative;
-    left: 2em;
-  }
-  
-  .Grouped_List {
-    left: -1.5em;
-  }
-  
-  p {
-  margin: 1em
-  }
-}
-
-.Button {
-  text-decoration: none;
-  color: #D9D9D9;
-  padding: 14px 20px;
-  background-color: #3C2B64;
-  border-radius: 2em;
-  margin: 0.25em;
-  position: relative;
-  text-align: center;
-  top: 1em;
-  text-wrap: nowrap;
-}
-
-.Button_Box {
-  float: bottom; 
-  position: relative;
-  text-align: center;
-  bottom: 10%;
-}
-
-.Cap_Image {
-  text-align: center;
-  color: #A8A8A8;
-}
-
-.L {
-  font-size: 1em;
-  float: left;
-}
-
-.R {
-  font-size: 1em;
-  float: right;
+  margin-left: 3rem;
+  margin-right: 3rem;
 }

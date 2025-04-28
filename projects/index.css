@@ -1,0 +1,22 @@
+@import "../menu.css";
+
+.Image_List {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.Image_List a {
+    text-decoration: none;
+}
+
+.Image_List a img {
+    width:21rem;
+    border-radius: 1rem;
+    flex: 1 1 50%;
+}

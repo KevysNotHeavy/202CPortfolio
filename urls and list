@@ -1,0 +1,34 @@
+    <div class="Left_Right">
+      <div class="Grouped_List">
+        <t class="Title">Hobbies and Noteworthies</t>
+        <ul class="List">
+          <li>Tau Alpha Pi President (as of Spring 2025)</li>
+          <li>Deans List Streak (as of Spring 2025)</li>
+          <li>Programming</li>
+          <li>Modeling</li>
+          <li>Theatre Club</li>
+          <li>Math Club</li>
+          <li>Ethical Hacking</li>
+          <li>National High School Scholars</li>
+        </ul>
+        
+        <t class="Title">Traits</t>
+        <ul class="List">
+          <li>Confident</li>
+          <li>Persistent</li>
+          <li>Curious</li>
+          <li>Adaptable</li>
+          <li>Cooperative</li>
+          <li>Kind</li>
+        </ul>
+      </div>
+
+    <div class="Button_Box">
+      <center>
+        <a href="./Documents/Current Resume.pdf" target="_blank" class="Button">Resume</a>
+        <a href="https://docs.google.com/document/d/16HxIOldQoRPQxgSfEaNssZzuihWwpFvYKK-Q0HBYMyE/edit?tab=t.0#heading=h.h6yccixo4kzq" target="_blank" class="Button">Instruction Manual</a>
+        <a href="https://www.canva.com/design/DAGiRc-dmBE/zu-VW0Y5wzP1FuYMEal66w/view?utm_content=DAGiRc-dmBE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=ha473915228" target="_blank" class="Button">Psych Flyer</a>
+        <a href="./Documents/Accessibility Proposal.pdf" target="_blank" class="Button">Sustainability Proposal</a>
+        <a href="https://www.behance.net/gallery/219760299/Facebook-UIUX#" target="_blank" class="Button">UI/UX Study</a>
+      </center>
+    </div>

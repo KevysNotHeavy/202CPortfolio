@@ -1,0 +1,42 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+
+body {
+
+    background: #000000;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(45deg, #161616, #070722);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(45deg, #161616, #070722);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Menu {
+    display: flex;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    flex-direction: row;
+    background-color: #181A72;
+    align-items: center;
+    padding-right: 100%;
+}
+  
+.Menu a {
+    background-color: #000000;
+    padding: 1rem 2rem;
+    text-align: center;
+    color: #D9D9D9;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: Impact;
+}
+
+.Menu_Gap {
+    margin-top: 8rem;
+}
