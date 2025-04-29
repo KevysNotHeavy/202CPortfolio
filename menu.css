@@ -38,7 +38,6 @@ body {
 }
   
 .Menu a {
-    background-color: #000000;
     padding: 1rem 2rem;
     text-align: center;
     color: #D9D9D9;
@@ -47,6 +46,18 @@ body {
     font-family: tomorrow-bold;
 }
 
+.Menu a:hover {
+    background-color: #080827;
+}
+
 .Menu_Gap {
     margin-top: 8rem;
+}
+
+.Active {
+    background-color: #080827;
+}
+
+.Inactive {
+    background-color: #242424;
 }
