@@ -1,1 +1,99 @@
 @import "../menu.css";
+
+h1 {
+    color: #A8A8A8;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    position: relative;
+    text-align: center;
+    font-family: tomorrow-bold;
+    font-size: 3.5rem;
+}
+
+h2 {
+    color: #A8A8A8;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    position: relative;
+    text-align: center;
+    font-family: tomorrow-bold;
+    font-size: 3.5rem;
+}
+
+.Left {
+    float: left;
+    left: 5%;
+    bottom: 5%;
+}
+
+.Right {
+    float: right;
+    right: 5%;
+    bottom: 5%;
+}
+
+img {
+    position: absolute;
+    text-align: center;
+    border-radius: 6%;
+    width: 30rem;
+    margin-bottom: 5%;
+}
+
+.CapL {
+    position: absolute;
+    bottom: 8%;
+    left: -2%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.CapR {
+    position: absolute;
+    bottom: 8%;
+    right: -5.5%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    img {
+        position: relative;
+        text-align: center;
+        left: 50%;
+        width: 30rem;
+    }
+
+    .Left {
+        float: none;
+        text-align: center;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+    
+    .Right {
+        float: none;
+        text-align: center;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .CapL {
+        position: relative;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.5rem;
+        margin-bottom: 10rem;
+    }
+    
+    .CapR {
+        position: relative;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 1.5rem;
+        margin-top: 0;
+        margin-bottom: 0rem;
+    }
+}

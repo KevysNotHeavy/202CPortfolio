@@ -2,7 +2,6 @@
 
 h1, h2 {
   position: relative;
-
   text-align: center;
   font-family: tomorrow-bold;
   color: #A8A8A8;
@@ -17,29 +16,4 @@ h1 {
 h2 {
   font-size: 2rem;
   margin-bottom: 6rem;
-}
-
-@media (max-width: 800px) {
-  body p {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-}
-
-body p {
-  position: relative;
-  left: 5%;
-  
-  font-size: 2rem;
-  text-align: left;
-  text-wrap: balance;
-  font-family: tomorrow;
-  color: #A8A8A8;
-
-  margin-left: 12rem;
-  margin-right: 12rem;
-}
-
-.Indent {
-  text-indent: 6rem;
 }

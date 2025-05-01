@@ -61,3 +61,28 @@ body {
 .Inactive {
     background-color: #242424;
 }
+
+/* Paragraph Stuff */
+body p {
+    position: relative;
+    
+    display: inline-block;
+    font-size: 2rem;
+    text-align: left;
+    font-family: tomorrow;
+    color: #A8A8A8;
+  
+    margin-left: 16rem;
+    margin-right: 16rem;
+  }
+
+@media (max-width: 800px) {
+    body p {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+}
+  
+  .Indent {
+    text-indent: 6rem;
+  }
