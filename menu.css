@@ -76,7 +76,7 @@ body p {
     margin-right: 16rem;
   }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
     body p {
       margin-left: 1rem;
       margin-right: 1rem;
